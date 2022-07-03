@@ -1,0 +1,187 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 120%;
+    background: #F8F8FF;
+}
+
+.header {
+    width: 30%;
+    margin: 50px auto 0px;
+    color: white;
+    background: #5F9EA0;
+    text-align: center;
+    border: 1px solid #B0C4DE;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+
+form,
+.content {
+    width: 30%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #B0C4DE;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.input-group {
+    margin: 10px 0px 10px 0px;
+}
+
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #5F9EA0;
+    border: none;
+    border-radius: 5px;
+}
+
+.error {
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.success {
+    color: #3c763d;
+    background: #dff0d8;
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+}
+
+@font-face {
+    font-family: nos;
+    src: url(/fonts/blankenburg/Blankenburg.ttf);
+}
+body {
+    max-width: 100%;
+    margin: 0% 0%;
+    background-image: url(https://raw.githubusercontent.com/CharliezXx/MyGalleryPage/main/img/backgorund.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 10%;
+}
+
+header {
+    background-color: hsl(0, 63%, 54%);
+    max-height: 50px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: clamp(24px, 3vw, 62px);
+}
+
+nav {
+    position: sticky;
+    background-color: hsl(0, 29%, 60%);
+    height: 25px;
+    padding: 5px; 
+    top: 0;
+    
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 2%;
+    background-image: linear-gradient(rgb(59, 59, 59), rgb(56, 56, 56));
+}
+
+aside {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgb(56, 56, 56), rgb(59, 59, 59));
+    padding-bottom: 2%;
+}
+
+footer {
+    clear: both;
+    border-top: 3px solid hsl(0, 53%, 19%);
+    height: 50px;
+    background-color: hsl(0, 63%, 54%);
+}
+
+img {
+    width: 190px;
+    height: 350px;
+    object-fit: cover;
+}
+
+
+.center {
+    text-align: center;
+}
+
+.works {
+    font-size: 62px;
+    padding: 2%;
+    color: white;
+    font-size: clamp(30px, 3vw, 62px);
+}
+.header-font {
+    font-family: nos;
+}
+.artshowcase {
+    background-color: #b6b6b6;
+    padding: 2%;
+    margin: 0 20%;
+    border-radius: 2px;
+}
+.videoshowcase{
+    background-color: #b6b6b6;
+    padding: 2%;
+    margin: 10px 20%;
+    border-radius: 2px;
+}
+.video{
+    margin: 10px 5px;
+    object-fit: cover;
+    width: 190px;
+    height: 190px;
+}
+.commission{
+    color: white;
+    font-size: clamp(30px, 3vw, 62px);
+}
+.img-radius {
+    border-radius: 5px;
+    margin: 5px 5px;
+    border: 3px solid rgb(59, 59, 59);
+}
+.topic {
+    text-align: left;
+    font-size: clamp(24px, 3vw, 62px);
+    font-family: nos;
+}
+.commission-info{
+    color: white;
+}
+html {
+    scroll-behavior: smooth;
+}
